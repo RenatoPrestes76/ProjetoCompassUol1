@@ -1,0 +1,159 @@
+body {
+    overflow: hidden;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #login {
+    /* display: flex; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    /* background: red; */
+  }
+  #banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100vh;
+    /* background: green; */
+    background-size: cover;
+    background-image: url("../img/banner1.png");
+  }
+  
+  #containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+  }
+  
+  #containerImg img {
+    width: 40%;
+  }
+  
+  .text-ola {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+    box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+  
+    color: #e0e0e0;
+  }
+  
+  #containerText {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      /* background: rgb(158, 158, 106); */
+  
+  }
+  
+  #text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 40%;
+      /* background: #f08f7b; */
+  }
+  
+  
+  
+  #text h2{
+      font-size: 3em;
+      color: #E0E0E0;
+  }
+  
+  #text p{
+      margin: -14% 0 0 0;
+  
+  }
+  
+  #text h1{
+      margin: 25% 0 0 0;
+  }
+  
+  #containerImput {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      /* background: rgb(33, 49, 2); */
+  
+  }
+  
+  #imput {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 17%;
+      margin: 4% 0;
+  
+  
+  }
+  
+  #imput input{
+      width: 100%;
+      height: 100%;
+      padding-left: 5%;
+      margin: 0. 0em -2em;
+      /* background: #72afec; */
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 50px;
+      background: transparent;
+  }
+  
+  #buttonLogin {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 5em;
+      /* background: rgb(0, 17, 255); */
+  
+  }
+  
+  #textErro {
+      display: flex;
+      width: 100%;
+      height: 6em;
+      justify-content: center;
+      /* background: orange; */
+  }
+  
+  #buttonLogin button{
+      margin: 0;
+      width: 100%;
+      height: 3em;
+      background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  
+  
+  }
+  
+  #buttonLogin button p {
+      margin: 0;
+      text-align: center;
+  }
+  
+  

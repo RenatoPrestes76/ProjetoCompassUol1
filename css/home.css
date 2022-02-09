@@ -1,22 +1,38 @@
 #Home {
     display: flex;
     flex-direction: column;
-
     width: 100%;
     height: 100vh;
     background: #f3e9e7;
 }
 
+    
 #home-page {
     display: flex;
-    background: green;
     width: 100%;
     height: 85%;
+    background: green;
 
 }
 
-#footer {
-    width: 100%;
-    height: 15%;
-    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+#logo-bola {
+    display: flex;
+    width: 0%;
+   
 }
+
+#logo-bola {
+    display: flex;
+    width: 70%;
+    height: 64%;
+    align-items: center;
+    
+    background: url(bola-LogoCompasso.png);
+
+
+}
+
+
+
+
+

@@ -2,7 +2,7 @@ body {
     overflow: hidden;
   }
 #login {
-    display: none;
+    display: flex;
     width: 100%;
     height: 100vh;
     flex-direction: row;
@@ -112,6 +112,7 @@ body {
     justify-content: space-between;
 }
 #textErro {
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;

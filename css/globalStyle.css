@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@300&family=Rajdhani:wght@300&display=swap%27');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}

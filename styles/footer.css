@@ -1,5 +1,5 @@
 #containerFooter {
-    display: flex;
+    display: none;
     position: absolute;
     align-items: center;
     bottom: 0;
@@ -83,4 +83,9 @@
     color: #FFFFFF;
     background: transparent;
     border: 0;
+    cursor: pointer;
+}
+
+#logout:hover{
+    color: #C12D18;
 }

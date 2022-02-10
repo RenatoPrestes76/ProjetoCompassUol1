@@ -11,12 +11,14 @@ export default function logicalPassword(){
 
     const loginPage = $("#login")
     const homePage = $("#home")
+    const footer = $("#containerFooter")
 
 
     botao.addEventListener("click", () => {
         if(user.value === "admin" && password.value === "admin"){
         loginPage.style.display = "none"
         homePage.style.display = "flex"
+        footer.style.display = "block"
         document.title = "Home - Compass"
         
         } else {

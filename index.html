@@ -3,56 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shirink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <script type="module" src="index.js" defer></script>
     <title>Login</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    
-        <section class="tela-login" id="login">
-    
+    <main>
+        <section class="tela-login" id="login"> 
             <div class="text-ola" id="text-ola">
-               <div id="containerText">
-                   <div id="text">
+                <div id="containerText">
+                    <div id="text">
                        <h2>Olá,</h2>
-                       <p>Para continuar navegando de forma<br> segura, efetue o login na rede.</p>
+                       <p id="frase-login">Para continuar navegando de forma<br> segura, efetue o login na rede.</p>
                         <h1>Login</h1>
-                   </div>
-    
-                   <div id="containerImput">
-    
-                        <div id="imput">
-                                <input type="text" class="input" placeholder="Usuário"></input>
-                        </div>
 
-                        <div id="imput">
-                            <input type="text" class="input" placeholder="Senha"></input>
-                        </div>
-    
-                        <div id="textErro">
-                            <p>Erro</p>
-                        </div>
-            
-                        <div id="buttonLogin">
-                            <button type="button">
-                                    <p>Continuar</p>
-                            </button>
-                        </div>
                     </div>
-    
-               </div>
-            </div>
-    
+                    <div id="containerImput">               
+                        <div class="imput">
+                            <div class="test">
+                                <input type="text" class="input" placeholder="Usuário"></input>
+                                <img src="./assets/login.png">
+                            </div>
+                        </div>
+                        <div class="imput">
+                            <div class="test">
+                                <input type="text" class="input" placeholder="Senha"></input>
+                                <img src="./assets/password.png">
+                            </div>
+                        </div>
+                        <div id="textErro">
+                            <p>Ops, usuário ou senha inválidos.<br> Tente novamente!</p>
+                        </div>
+                        <div id="buttonLogin">
+                            <button>Continua</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>    
             <div class="banner1-img" id="banner1">
-               <div id="containerBanner">
-                   <img src="./img/Logo-Compasso-Branco-hor 1.png" alt="imagem-compass">
+               <div id="logoCompassText">
+                <img  src="./assets/LogoCompassText.png" alt="imagem-compass">
                </div>
-            </div>           
+            </div>         
         </section>
-        
-        
-    
+
+        <section id="home">
+            <div id="home-page">       
+                <div>            
+                    <img id="containerLogo" src="./assets/bola-LogoCompasso 1.png" alt="imagem-compass">        
+                </div>
+                <div id="text-msg">
+                    <div>                   
+                        <h1>Our mission is</h1>
+                        <p>Nossa missão é</p>
+                    </div>
+                        <h2>to tramsform the word</h2>
+                        <p>transformar o mundo</p>
+                        <h2>building digital experiences</h2>    
+                        <p>construindo experiências digitais</p>                 
+                        <h2>that enable our client's growth</h2>         
+                        <p>que permitam o crescimento dos nossos clientes</p>
+                    </div>   
+                </div>
+            </div>
+            <div id="containerFooter">
+                <div id="footer">
+                    <p id="footerMsg">
+                        Essa janela do navegador é usada para manter sua sessão de 
+                        aitentificação ativa. Deixe-a aberta em segundo plano e abra uma 
+                        nova janela para continuar a navegar.
+                    </p>
+                     <div id="verticalLine"></div>
+                     <p id="refleshMsg">
+                         Application <br> refresh in
+                     </p>
+                     <div id="timeBox">
+                         <p id="time-box">600</p>
+                         <p>seconds</p>
+                     </div>
+                     <div id="continueMsg">
+                         <p>continuar<br>navegando</p>
+                     </div>
+                     <button id="logout">Logout</button>
+                </div>  
+            </div>
+        </section>      
+    </main>
+>>>>>>> feature/home-screen
 </body>
 </html>

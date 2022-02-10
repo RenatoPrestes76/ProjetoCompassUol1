@@ -1,38 +1,34 @@
-#Home {
-    display: flex;
+#home {
+    display: block;
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: #f3e9e7;
 }
-
-    
 #home-page {
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 100%;
-    height: 85%;
-    background: green;
-
+    height: 90vh;
 }
-
-#logo-bola {
+#containerLogo {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 0 -3em 0;
+}
+#text-msg {
     display: flex;
-    width: 0%;
-   
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
 }
-
-#logo-bola {
-    display: flex;
-    width: 70%;
-    height: 64%;
-    align-items: center;
-    
-    background: url(bola-LogoCompasso.png);
-
-
+#text-msg h1 {
+    color: #C12D18;
 }
-
-
-
-
-
+#text-msg h2{
+    height: 13%;
+    font-size: clamp(1rem, 3.5vw, 4rem);
+    color: #C12D18;
+}

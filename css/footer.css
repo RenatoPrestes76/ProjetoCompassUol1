@@ -1,25 +1,49 @@
-#footer {
+#containerFooter {
     display: flex;
-    width: 1920px;
+    position: absolute;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+}
+#footer {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+
+    grid-template-columns: 15.6% 28.6% 7.8% 5.5% 5% 23.5% 7% 7%;
+
 
 }
-
+#time-box {
+    font-size: 20px;
+    font-weight: bold;
+}
 #footerMsg {
+    position: relative;
+    text-align: right;
+    grid-column: 2;
     display: flex;
-    width: 1920px;
-    height: 100px;
-    left: 0px;
-    bottom: -1px;  
+    align-self: center;
+    bottom: -5%;  
     color: #FFFFFF;
+}
+#verticalLine {
+    border-left: solid 1px white;
+    margin-left: 50%;
+    height: 60%;
+    margin-top: 10%;
 }
 
 #refleshMsg {
     display: flex;
-    width: 541px;
-    height: 58px;
-    left: 354px;
-    top: 1014px;
+    position: relative;
+    align-self: center;
+    top: 20%;
+    grid-column: 4;
+    height: 100%;
     line-height: 15px;
     text-align: right;
 
@@ -27,13 +51,12 @@
 
 }
 
-#time-box {
+#timeBox {
     display: flex;
-    width: 97px;
-    height: 61px;
-    left: 1195px;
-    top: 990px;
-    line-height: 61px;
+    grid-column: 5;
+    flex-direction: column;
+  
+    height: 100%;
     text-align: center;
 
     color: #FFFFFF;
@@ -41,26 +64,23 @@
 
 #continueMsg {
     display: flex;
-    width: 95.49px;
-    height: 28.56px;
-    left: 1679.15px;
-    top: 1017.17px;
-    line-height: 15px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    grid-column: 7;
+    
+    height: 100%;
+   
     text-align: center;
     color: #C13216;
+    background: white;
 
 }
-
-#loulgout {
-    display: flex;
-    width: 89px;
-    height: 55px;
-    left: 1815px;
-    top: 1003px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
+#logout {
+    grid-column: 8;
+    height:100%;
     text-align: center;
     color: #FFFFFF;
-
+    background: transparent;
+    border: 0;
 }

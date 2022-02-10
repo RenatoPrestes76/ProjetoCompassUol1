@@ -1,5 +1,5 @@
 #containerFooter {
-    display: flex;
+    display: none;
     position: absolute;
     align-items: center;
     bottom: 0;

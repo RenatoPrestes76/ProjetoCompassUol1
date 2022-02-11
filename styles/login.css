@@ -99,7 +99,9 @@ body {
    border: 0;
    color: #E0E0E0;
    background-color: transparent;
+   width: 100%;
 } 
+
 
 .input:focus{
     outline-width: 0;

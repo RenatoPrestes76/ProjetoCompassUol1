@@ -1,18 +1,17 @@
 #containerFooter {
-    display: block;
     position: absolute;
     align-items: center;
     bottom: -1px;
     width: 100%;
-    height: 10vh;
+    height: 10%;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
 }
 #footer {
     display: grid;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     font-size: 10px;
-    grid-template-columns: 11.6% 33.6% 7.8% 5.5% 5% 23.5% 7% 7%;
+    grid-template-columns: 11.6% 32.6% 7.8% 5.5% 5% 23.5% 7% 7%;
 }
 
 #time-box {
@@ -42,6 +41,7 @@
     display: flex;
     position: relative;
     align-self: center;
+    margin-top: 15%;
     top: 20%;
     grid-column: 4;
     height: 100%;
@@ -57,13 +57,13 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin-top: 15%;
     text-align: center;
     color: #FFFFFF;
 }
 
 #timeBox h1{
     font-size: 35px;
-    height: 63%;
 }
 
 #continueMsg {
@@ -73,7 +73,6 @@
     font-weight: bold;
     grid-column: 7;
     font-size: 12px;
-    height: 100%;
     text-align: center;
     color: #C13216;
     background: white;

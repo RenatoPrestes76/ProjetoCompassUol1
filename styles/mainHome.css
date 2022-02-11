@@ -1,18 +1,17 @@
 #mainHome{
     display: flex;
-    background-color: #F0F0F0;
     justify-content: space-between;
     height: 80%;
-    width: 100vw;
+    width: 100%;
 }
 
-#logoGrandeCompass img{
-    max-width: 380px;
-}
 
 #text-msg{
+    display: flex;
+    align-items: center;
     text-align: right;
-    margin-right: 5%;
+    width: 85%;
+    padding-bottom: 100px;
 }
 
 #boxParagrafo{
@@ -28,11 +27,11 @@
 }
 #boxParagrafo h2{
     height: 10%;
-    font-size: 40px;
+    font-size: 50px;
     color: #C12D18;
     font-weight: bold;
 }
 
 #boxParagrafo p{
-    font-size: 15px;
+    font-size: 19px;
 }

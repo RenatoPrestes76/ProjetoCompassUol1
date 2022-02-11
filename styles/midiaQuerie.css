@@ -1,0 +1,86 @@
+@media (max-width: 800px){
+    #login{
+        display: block;
+        width: 100%;
+    }
+
+    #midiaLogoCompass{
+        position: absolute;
+        left: 80%;
+        bottom: 90%;
+        width: 250px;
+    }
+
+    #text-ola{
+        width: 100%;
+        padding: 10%;
+    }
+    #containerText{
+        width: 60%;
+    }
+    #banner1{
+        display: none;
+    }
+}
+
+@media (min-width: 799px){
+    #midiaLogoCompass{
+        display: none;
+    }
+}
+
+
+@media (max-width: 1100px){
+    #CondicoesCllima, #horarioDia, #text-msg, #footerMsg, #verticalLine, #timeBox, #refleshMsg{
+        display: none;
+    }
+
+    #logoGrandeCompass{
+        max-width: 400px;
+    }
+
+    #footer {
+        display: grid;
+        width: 100vw;
+        height: 100%;
+        font-size: 10px;
+        grid-template-columns: 25% 75%;
+    }
+
+    #continueMsg {
+        grid-column: 2;   
+        font-size: 16px; 
+    }
+
+    #logout {
+        grid-column: 1;
+        order: -1;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1427px){
+    #boxParagrafo h1{ 
+        font-size: 1.9em;
+    }
+
+    #boxParagrafo h2{
+        font-size: 2em;
+    }
+
+    #boxParagrafo p{
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media (max-width: 1256px){
+    #boxParagrafo h1{ 
+        font-size: 1.5em;
+    }
+
+    #boxParagrafo h2{
+        font-size: 1.7em;
+    }
+}

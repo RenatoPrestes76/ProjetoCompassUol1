@@ -8,6 +8,7 @@ export default function logicalTimer(){
         segundos.textContent = contador
         contador--
         if(contador === 0){
+            history.pushState(null, "Home - Compass", "https://renatoprestes76.github.io/ProjetoCompassUol1")
             window.location.reload()
         }
     },1000)

@@ -22,7 +22,7 @@ export default function logicalPassword(){
         footer.style.display = "block"
         document.title = "Home - Compass"
         logicalTimer()
-        
+        history.pushState(null, "Home - Compass", "https://renatoprestes76.github.io/ProjetoCompassUol1/Home")
         } else {
             msgError.style.visibility = "visible"
             bordaText.style.border = "1px solid #E9B425"

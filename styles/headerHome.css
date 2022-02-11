@@ -1,0 +1,32 @@
+#headerHome{
+    background-color: #F0F0F0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100vw;
+}
+
+#containerLogo{
+    max-width: 200px;
+}
+
+#horario{
+    font-size: 80px;
+    height: 92%;
+}
+
+#Dia{
+    text-align: center;
+    color: #222222;
+}
+
+#localHome{
+    background-color: aqua;
+    margin-right: 50px;
+    width: 100%;
+}
+
+#localHome h1{
+    font-size: 16px;
+}

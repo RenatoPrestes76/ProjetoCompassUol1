@@ -1,3 +1,4 @@
+import logicalTimer from "./scripts/logicalTimer.js"
 export default function logicalPassword(){
 
     const $ = document.querySelector.bind(document)
@@ -20,6 +21,7 @@ export default function logicalPassword(){
         homePage.style.display = "flex"
         footer.style.display = "block"
         document.title = "Home - Compass"
+        logicalTimer()
         
         } else {
             msgError.style.visibility = "visible"

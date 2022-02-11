@@ -10,7 +10,7 @@
     <title>Login - Compass</title>
 
 </head>
-<body>
+<body onselectstart="return false">
     <main>
         <section id="login"> 
             <div class="text-ola" id="text-ola">
@@ -24,13 +24,13 @@
                         <div id="textInput" class="imput">
                             <div class="test">
                                 <input type="text" id="user" class="input" placeholder="Usuário"></input>
-                                <img src="./assets/login.png">
+                                <img  draggable="false" src="./assets/login.png">
                             </div>
                         </div>
                         <div id="passwordInput" class="imput">
                             <div class="test">
                                 <input type="password" id="password" class="input" placeholder="Senha"></input>
-                                <img src="./assets/password.png">
+                                <img  draggable="false" src="./assets/password.png">
                             </div>
                         </div>
                         <div id="textErro">
@@ -44,30 +44,56 @@
             </div>    
             <div class="banner1-img" id="banner1">
                <div id="logoCompassText">
-                <img  src="./assets/LogoCompassText.png" alt="imagem-compass">
+                <img   draggable="false" src="./assets/LogoCompassText.png" alt="imagem-compass">
                </div>
             </div>         
         </section>
 
         <section id="home">
-            <div id="home-page">       
-                <div>            
-                    <img id="containerLogo" src="./assets/bola-LogoCompasso.png" alt="imagem-compass">        
+            <div id="headerHome">
+                <div>   
+                    <img draggable="false" id="containerLogo" src="./assets/Logo-Compasso-Preta.png" alt="imagem-compass">        
+                </div>
+                <div id="horarioDia"> 
+                    <div id="horario"> 
+                        <h1>00:00</h1>
+                    </div>
+                    <div id="Dia"> 
+                        <p>terça-feira, 17 de março de 2020 </p>
+                    </div>
+                </div>
+                <div>
+                    <div id="localClima">
+                        <div id="localHome">
+                            <h1>Juiz de Fora - MG</h1>
+                            <p>122°</p>
+                        </div>
+                        <div> 
+                            <!-- <img draggable="false" id="containerLogo" src="./assets/icon_compass.png" alt="imagem-compass"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="mainHome">      
+                <div id="logoGrandeCompass">            
+                    <img draggable="false" src="./assets/bola-LogoCompasso.png" alt="imagem-compass">        
                 </div>
                 <div id="text-msg">
-                    <div>                   
+                    <div id="boxParagrafo">                   
                         <h1>Our mission is</h1>
                         <p>Nossa missão é</p>
-                    </div>
-                        <h2>to tramsform the word</h2>
+                        <h2>to transform the world</h2>
                         <p>transformar o mundo</p>
                         <h2>building digital experiences</h2>    
                         <p>construindo experiências digitais</p>                 
                         <h2>that enable our client's growth</h2>         
                         <p>que permitam o crescimento dos nossos clientes</p>
-                    </div>   
+                    </div>
                 </div>
             </div>
+        
+
             <div id="containerFooter">
                 <div id="footer">
                     <p id="footerMsg">
@@ -75,18 +101,18 @@
                         aitentificação ativa. Deixe-a aberta em segundo plano e abra uma 
                         nova janela para continuar a navegar.
                     </p>
-                     <div id="verticalLine"></div>
-                     <p id="refleshMsg">
-                         Application <br> refresh in
-                     </p>
-                     <div id="timeBox">
-                         <p id="time-box">600</p>
-                         <p>seconds</p>
-                     </div>
-                     <div id="continueMsg">
-                         <p>Continuar<br>Navegando</p>
-                     </div>
-                     <button id="logout">Logout</button>
+                    <div id="verticalLine"></div>
+                    <p id="refleshMsg">
+                        Application <br> refresh in
+                    </p>
+                    <div id="timeBox">
+                        <h1 id="time-box">600</h1>
+                        <p>seconds</p>
+                    </div>
+                    <div id="continueMsg">
+                        <p>Continuar<br>Navegando</p>
+                    </div>
+                    <button id="logout">Logout</button>
                 </div>  
             </div>
         </section>      

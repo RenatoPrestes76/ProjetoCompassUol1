@@ -1,0 +1,39 @@
+#mainHome{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100vw;
+}
+
+#logoGrandeCompass img{
+    max-width: 420px;
+}
+
+#text-msg{
+    text-align: right;
+    margin-right: 5%;
+}
+
+#boxParagrafo{
+    width: 100%;
+    margin-right: 10%;
+}
+
+#boxParagrafo h1{
+    font-size: 36px;
+}
+
+#boxParagrafo h1 {
+    color: #C12D18;
+    font-size: 36px;
+}
+#boxParagrafo h2{
+    height: 10%;
+    font-size: 60px;
+    color: #C12D18;
+}
+
+#boxParagrafo p{
+    font-size: 23px;
+}

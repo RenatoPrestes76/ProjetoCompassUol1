@@ -4,7 +4,7 @@ body {
 #login {
     display: flex;
     width: 100%;
-    height: 101vh;
+    height: 100vh;
     flex-direction: row;
 }
 
@@ -35,7 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 103vh;
+    height: 100vh;
     background: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
     box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
     color: #e0e0e0;

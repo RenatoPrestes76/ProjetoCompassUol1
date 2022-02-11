@@ -1,6 +1,6 @@
 #mainHome{
-    background-color: #F0F0F0;
     display: flex;
+    background-color: #F0F0F0;
     justify-content: space-between;
     height: 80%;
     width: 100vw;

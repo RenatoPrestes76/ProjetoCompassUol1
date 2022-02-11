@@ -1,4 +1,4 @@
-import logicalTimer from "./scripts/logicalTimer.js"
+import logicalTimer from "./logicalTimer.js"
 export default function logicalPassword(){
 
     const $ = document.querySelector.bind(document)

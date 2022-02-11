@@ -1,8 +1,8 @@
 #containerFooter {
-    display: none;
+    display: block;
     position: absolute;
     align-items: center;
-    bottom: 0;
+    bottom: -1px;
     width: 100%;
     height: 10vh;
     background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
@@ -12,9 +12,9 @@
     width: 100%;
     height: 100%;
     font-size: 10px;
-    grid-template-columns: 10.6% 33.6% 7.8% 5.5% 5% 23.5% 7% 7%;
-
+    grid-template-columns: 11.6% 33.6% 7.8% 5.5% 5% 23.5% 7% 7%;
 }
+
 #time-box {
     font-size: 20px;
     font-weight: bold;
@@ -72,7 +72,7 @@
     justify-content: center;
     font-weight: bold;
     grid-column: 7;
-    font-size: 14px;
+    font-size: 12px;
     height: 100%;
     text-align: center;
     color: #C13216;

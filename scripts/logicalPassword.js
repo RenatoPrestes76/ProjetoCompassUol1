@@ -18,7 +18,7 @@ export default function logicalPassword(){
     botao.addEventListener("click", () => {
         if(user.value === "admin" && password.value === "admin"){
         loginPage.style.display = "none"
-        homePage.style.display = "flex"
+        homePage.style.display = "block"
         footer.style.display = "block"
         document.title = "Home - Compass"
         logicalTimer()

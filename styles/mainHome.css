@@ -7,7 +7,7 @@
 }
 
 #logoGrandeCompass img{
-    max-width: 420px;
+    max-width: 380px;
 }
 
 #text-msg{
@@ -20,20 +20,19 @@
     margin-right: 10%;
 }
 
-#boxParagrafo h1{
-    font-size: 36px;
-}
 
 #boxParagrafo h1 {
     color: #C12D18;
-    font-size: 36px;
+    font-size: 30px;
+    font-weight: bold;
 }
 #boxParagrafo h2{
     height: 10%;
-    font-size: 60px;
+    font-size: 40px;
     color: #C12D18;
+    font-weight: bold;
 }
 
 #boxParagrafo p{
-    font-size: 23px;
+    font-size: 15px;
 }

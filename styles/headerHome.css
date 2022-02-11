@@ -8,25 +8,41 @@
 }
 
 #containerLogo{
-    max-width: 200px;
+    max-width: 140px;
 }
 
 #horario{
-    font-size: 80px;
+    font-size: 65px;
     height: 92%;
+    color: #222222;
 }
 
 #Dia{
     text-align: center;
     color: #222222;
+    font-size: 13px;
 }
 
-#localHome{
-    background-color: aqua;
-    margin-right: 50px;
-    width: 100%;
+#CondicoesCllima{
+    margin: 1em;
+    margin-right: 5%;
 }
 
-#localHome h1{
-    font-size: 16px;
+#Localizacao h1{
+    font-size: 12px;
+}
+
+#Clima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 45px;
+}
+
+
+#Clima p{
+    font-size: 40px;
+    font-weight: bold;
+    color: #222222;
+
 }
